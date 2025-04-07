@@ -33,7 +33,7 @@ This project has been "Vibe coded" - a dirty word for many. This means that whil
 
 1.  **Clone the Repository:**
     ```bash
-    git clone <Your-Repository-URL>
+    git clone https://github.com/FrunkQ/dynamic-map-renderer.git
     cd dynamic-map-renderer
     ```
 2.  **Create & Activate Virtual Environment (Recommended):**
@@ -90,10 +90,10 @@ This project has been "Vibe coded" - a dirty word for many. This means that whil
 
 The following features are planned for future releases:
 
-1.  **User-Defined Session IDs:** Allow the GM to create custom, memorable session IDs.
-2.  **Fog of War:** Tools for the GM to dynamically hide and reveal parts of the map.
-3.  **Marker Functionality:** Allow placing and managing visual markers/icons/tokens on the map.
-4.  **Sound Features:** Integrate sound effects or ambient audio tied to the map or markers (e.g., an Aliens-style motion tracker where sound varies depending upon player location).
-5.  **Player Window Transitions:** Add visual transitions (e.g., fades) when the map or filter changes in the player view.
+1.  **Fog of War:** Tools for the GM to dynamically hide and reveal parts of the map.
+2.  **Marker Functionality:** Allow placing and managing visual markers/icons/tokens on the map.
+3.  **Sound Features:** Integrate sound effects or ambient audio tied to the map or markers (e.g., an Aliens-style motion tracker where sound varies depending upon player location).
+4.  **Player Window Transitions:** Add visual transitions (e.g., fades) when the map or filter changes in the player view.
+5.  **User-Defined Session IDs:** Allow the GM to create custom, memorable session IDs.
 
 ---
