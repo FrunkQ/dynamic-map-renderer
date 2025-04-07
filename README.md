@@ -73,7 +73,7 @@ You can skip Step 1 and 2 if you just want to download and unzip the "release zi
     * Click "Save Map Config" to save the current settings for the selected map.
 2.  **Player View:** Share the "Player URL" displayed at the bottom of the GM controls panel with your players. For this version, the URL will always be:
     `http://127.0.0.1:5000/player?session=my-game`
-    Players opening this URL will see the map as controlled by the GM.
+    You can run this in your room on other machines but I tend to use locally on one machine with the player view on a different screen. I made it client/server to be more flexible going forward - other clients will have to use `http://<server ip>:5000/player?session=my-game` 
 
 ## Directory Structure
 
