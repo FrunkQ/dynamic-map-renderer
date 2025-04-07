@@ -1,0 +1,57 @@
+{
+  "current_filter": "retro_sci_fi_green",
+  "display_type": "image",
+  "filter_params": {
+    "none": {
+      "invertDisplay": 0
+    },
+    "retro_sci_fi_amber": {
+      "amberTint": 0.8,
+      "brightness": 1,
+      "chromaticAberration": 0,
+      "contrast": 1.2,
+      "crtWarp": 0.03,
+      "distortion": 0,
+      "flicker": 0,
+      "humBarIntensity": 0,
+      "interference": 0,
+      "invertColors": 0,
+      "pictureRoll": 0,
+      "roundedCorners": 0.05,
+      "scanlineIntensity": 0.1,
+      "skew": 0,
+      "staticAmount": 0.05,
+      "vignetteAmount": 0.5,
+      "wobbleAmplitude": 0,
+      "wobbleFrequency": 5,
+      "wobbleSpeed": 1
+    },
+    "retro_sci_fi_green": {
+      "brightness": 0.9,
+      "chromaticAberration": 0.0055,
+      "contrast": 1.15,
+      "crtWarp": 0.105,
+      "distortion": 0.001,
+      "flicker": 0.07,
+      "greenTint": 0.5,
+      "humBarIntensity": 0,
+      "interference": 0.06,
+      "invertColors": 1,
+      "pictureRoll": 0,
+      "roundedCorners": 0.05,
+      "scanlineIntensity": 0.15,
+      "skew": 0,
+      "staticAmount": 0.32,
+      "vignetteAmount": 0.35,
+      "wobbleAmplitude": 0.001,
+      "wobbleFrequency": 5.5,
+      "wobbleSpeed": 3.6
+    }
+  },
+  "map_content_path": "maps/TheAlexis.jpg",
+  "view_state": {
+    "center_x": 0.5,
+    "center_y": 0.5,
+    "scale": 1.15
+  }
+}

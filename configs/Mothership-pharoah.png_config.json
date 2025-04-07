@@ -1,0 +1,57 @@
+{
+  "current_filter": "retro_sci_fi_amber",
+  "display_type": "image",
+  "filter_params": {
+    "none": {
+      "invertDisplay": 0
+    },
+    "retro_sci_fi_amber": {
+      "amberTint": 0.8,
+      "brightness": 1,
+      "chromaticAberration": 0,
+      "contrast": 1.2,
+      "crtWarp": 0.03,
+      "distortion": 0,
+      "flicker": 0,
+      "humBarIntensity": 0,
+      "interference": 0,
+      "invertColors": 0,
+      "pictureRoll": 0,
+      "roundedCorners": 0.05,
+      "scanlineIntensity": 0.1,
+      "skew": 0,
+      "staticAmount": 0.05,
+      "vignetteAmount": 0.5,
+      "wobbleAmplitude": 0,
+      "wobbleFrequency": 5,
+      "wobbleSpeed": 1
+    },
+    "retro_sci_fi_green": {
+      "brightness": 1,
+      "chromaticAberration": 0,
+      "contrast": 1.2,
+      "crtWarp": 0.03,
+      "distortion": 0,
+      "flicker": 0,
+      "greenTint": 0.8,
+      "humBarIntensity": 0,
+      "interference": 0,
+      "invertColors": 0,
+      "pictureRoll": 0,
+      "roundedCorners": 0.05,
+      "scanlineIntensity": 0.1,
+      "skew": 0,
+      "staticAmount": 0.05,
+      "vignetteAmount": 0.5,
+      "wobbleAmplitude": 0,
+      "wobbleFrequency": 5,
+      "wobbleSpeed": 1
+    }
+  },
+  "map_content_path": "maps/Mothership-pharoah.png",
+  "view_state": {
+    "center_x": 0.5,
+    "center_y": 0.5,
+    "scale": 0.95
+  }
+}

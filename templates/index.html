@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Map - GM View</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.5.2/socket.io.min.js"></script>
+    </head>
+<body>
+    <header>
+        <h1>Dynamic Map Renderer - GM Interface</h1>
+    </header>
+
+    <div class="main-content">
+        <aside class="controls-panel">
+            <h2>Controls</h2>
+
+            <div class="gm-controls">
+                <label for="map-select">Select Map:</label>
+                <select id="map-select">
+                    <option value="">-- Loading Maps --</option>
+                </select>
+            </div>
+
+            <div class="gm-controls">
+                 <form id="map-upload-form">
+                    <label for="map-file-input">Upload New Map Image:</label>
+                    <input type="file" id="map-file-input" name="mapFile" accept=".png,.jpg,.jpeg,.webp">
+                    <button type="submit">Upload</button>
+                    <p id="upload-status" style="font-size: 0.9em; margin-top: 5px; min-height: 1.2em;"></p>
+                 </form>
+            </div>
+
+            <div class="gm-controls">
+                <label for="filter-select">Select Filter:</label>
+                <select id="filter-select">
+                    </select>
+            </div>
+
+            <div id="filter-controls" class="gm-controls filter-controls"></div>
+
+            <div class="gm-controls">
+                <fieldset> <legend>Player View Control</legend>
+                    <label for="view-center-x">Center X:<span class="slider-value"></span></label>
+                    <input type="range" id="view-center-x" min="0" max="1" step="0.01" value="0.5" disabled>
+                    <label for="view-center-y">Center Y:<span class="slider-value"></span></label>
+                    <input type="range" id="view-center-y" min="0" max="1" step="0.01" value="0.5" disabled>
+                    <label for="view-scale">Scale (Zoom):<span class="slider-value"></span></label>
+                    <input type="range" id="view-scale" min="0.1" max="5" step="0.05" value="1.0" disabled>
+                </fieldset>
+            </div>
+
+            <div class="gm-controls">
+                <button id="save-button" title="Save the current settings to this map's configuration file">Save Map Config</button>
+            </div>
+
+            <div class="session-info">
+                 <label for="player-url-display"><strong>Player URL (Session: my-game):</strong></label>
+                <div style="display: flex; align-items: center;">
+                     <input type="text" id="player-url-display" readonly value="Loading..." title="Share this URL with players">
+                     <button id="copy-player-url" title="Copy URL to clipboard">Copy</button>
+                </div>
+                <p id="copy-status" style="font-size: 0.8em; margin-top: 3px; min-height: 1em;"></p>
+            </div>
+        </aside>
+
+        <main class="map-view-panel">
+             <h2>GM Preview Area</h2>
+             <div id="gm-map-display" style="display: none;">
+                 <img id="gm-map-image" src="" alt="Selected Map Preview" style="display: none;">
+             </div>
+             <p id="gm-map-placeholder" style="margin-top: 20px; color: #666;">Select a map to start.</p>
+        </main>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/gm.js') }}"></script>
+</body>
+</html>

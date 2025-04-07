@@ -1,0 +1,44 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# C extensions
+*build*/
+*dist*/
+*.egg-info/
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.env/
+.env.*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor directories
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Optional: User-generated content
+# Uncomment the lines below if you prefer *not* to include
+# example maps and saved configurations directly in the repository.
+# Users would need to create these folders themselves.
+# ---
+# maps/*
+# !maps/.gitkeep
+# configs/*
+# !configs/.gitkeep
+# ---
+
+# Optional: Log files
+*.log

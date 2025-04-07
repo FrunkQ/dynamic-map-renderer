@@ -1,0 +1,7 @@
+Flask>=2.0
+Flask-SocketIO>=5.0
+Pillow>=9.0
+python-engineio>=4.0
+python-socketio>=5.0
+Werkzeug>=2.0 # Often needed explicitly with Flask updates
+# Add other dependencies as needed

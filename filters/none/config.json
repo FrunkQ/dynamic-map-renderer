@@ -1,0 +1,7 @@
+{
+    "id": "none",
+    "name": "None",
+    "params": {
+         "invertDisplay": { "label": "Invert Display", "value": 0.0, "min": 0, "max": 1, "step": 1 }
+    }
+}
