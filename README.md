@@ -31,18 +31,22 @@ This project has been "Vibe coded" - a dirty word for many. This means that whil
 
 ## Setup Instructions
 
+You will need a working Pyhthon 3.xx environment to use this. Further dependencies installed in step 3.
+You can skip Step 1 and 2 if you just want to download and unzip the "release zip" file. 
+
 1.  **Clone the Repository:**
     ```bash
     git clone https://github.com/FrunkQ/dynamic-map-renderer.git
     cd dynamic-map-renderer
     ```
-2.  **Create & Activate Virtual Environment (Recommended):**
+2.  **Create & Activate Virtual Environment (Optional but Recommended):**
     While it might work from your existing Python environment, using a virtual environment is recommended to manage dependencies.
     ```bash
     # For Linux/macOS
     python3 -m venv venv
     source venv/bin/activate
-
+     ```
+    ```bash
     # For Windows
     python -m venv venv
     .\venv\Scripts\activate
