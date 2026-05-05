@@ -1,5 +1,11 @@
 # Dynamic Map Renderer
 
+> **⚠️ This repository is archived. Development has moved to [Dynamic Map Renderer v2](https://github.com/FrunkQ/dynamic-map-renderer-v2).**
+>
+> v2 is a complete rewrite — no Python required, no server, no install. Just open [https://dynamic-map-renderer-v2.vercel.app/](https://dynamic-map-renderer-v2.vercel.app/) in your browser and go.
+
+---
+
 ## Description
 
 The Dynamic Map Renderer is a web-based application designed for tabletop roleplaying games (TTRPGs). It transforms static map images into dynamic displays, allowing a Game Master (GM) to control the map appearance, apply visual effects (filters), and manage the view presented to players in real-time. This initial release focuses on image-based maps with a retro sci-fi aesthetic - good for Mothership, Traveller, or the Aliens RPG.
